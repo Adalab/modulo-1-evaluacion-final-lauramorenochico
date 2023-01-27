@@ -1,0 +1,19 @@
+.section2 {
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr)
+    
+    
+}
+.section2-title1 {
+    grid-row: span 1;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.section1-title2 {
+    grid-row: span 2;
+}

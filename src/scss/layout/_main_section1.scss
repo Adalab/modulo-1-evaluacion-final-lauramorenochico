@@ -24,24 +24,49 @@
   font-family: "Roboto";
   margin: 11px 0px 0px 16px;
   }
-
+/*
 .button-section1 {
 width:160px;
 height:45px;
 border: solid 2px;
 border-color: #f26002;
 border-radius: 22.5px;
-/*margin-top:30px;*/
+/*margin-top:30px;
 transform:translateY(35px)
-}
+}*/
 .scroll-section1 {
   text-decoration: none;
   color: #f26002;
   font-size: 20px;
   font-family: "Roboto"; /*falta medium*/
   margin-left: 35px;
+  text-align: center;
+  z-index: 1;
+  transform: translateY(60px);
+  /*width: 160px;
+  height: 45px;
+  margin-top: 30px;
+  border-radius: 22.5px;
+  border: solid 2px #f26002;*/
 }
 
     
-   
-    
+  .button-section1 {
+    width: 160px;
+    height: 45px;
+    margin-top: 30px;
+    border-radius: 22.5px;
+    border: solid 2px #f26002;
+      }
+    /*padding-top: 8px;
+    font-family: "Roboto";
+    font-size:20px;
+    text-decoration: none;
+    color: #f26002;
+    }
+  
+        padding-top: 8px;
+        font-family: "Roboto";
+        font-size:20px;
+        text-decoration: none;
+        color: #f26002;*/
