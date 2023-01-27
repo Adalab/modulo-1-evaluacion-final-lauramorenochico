@@ -1,8 +1,26 @@
-@import 'core/variables';
+
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 @import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
 @import 'layout/header';
+@import 'layout/hero';
+@import 'layout/main_section1';
+@import 'layout/main_section2';
 @import 'layout/footer';
-@import 'pages/index';
+
+.container {
+  margin-left: 21px;
+  margin-right: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+  .hero-img {
+    width: 100%;
+  }
+}
+

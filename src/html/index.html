@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
 
-  <body>
-    <div class="page">
-      <include
-        src="./partials/header.html"
-        title="Bienvenidos a Adalab"
-      ></include>
-      <include src="./partials/main.html"></include>
-      <include src="./partials/footer.html"></include>
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
-</html>
-<!-------ejercicio---------->
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -32,59 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicio de evaluación final</title>
-    <!----- hoja reset, font, main,---->
-  </head>
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css" />
 
+</head>
   <body>
-          <header>
-        <section class="menu">
-          <div class="menu-background"></div>
-          <img class="menu-icon" a href="" />
-        </section>
-        <h1 class="title">Hasta un 50% de descuento</h1>
-        <section class="title-promotion">
-          <p class="promotion">Ya están aquí las ofertas de fin de temporada</p>
-        </section>
-        <section class="hero"></section>
-        <div class="button-header"></div>
-      </header>
-    <main> 
-      <section class="section1">
-        <h2 class="section1-title1"><small>los sentimientos nos inspiran</small></h2>
-        <h3 class="section1-title2">Conecta contigo</h3>
-        <p class="section1-paragraph">Esto es una celebración de todo lo que nos mueve. Del poder de elegir y de la libertad de ser. Rendimos homenaje al hermoso caos del movimiento y a la plena consciencia que tan bien nos hacen sentir.</p>
-        <button class="button-section1">Comprar</button>
-      </section>
-      <section class="section2">
-        <h4 class="section2-title1">Año nuevo, sentimientos nuevos</h4>
-        <h5 class="section2-title2">Entrenamientos</h5>
-        <p class="section2-paragraph">Sesiones de running y entrenamientos.</p>
-        <h5 class="section2-title2">Cualquier nivel</h5>
-        <p class="section2-paragraph">entrenamientos para cada nivel.</p>
-        <h5 class="section2-title2">Exclusividad</h5>
-        <p class="section2-paragraph">Productos para miembros premium.</p>
-        <button class="button-section2">Empezar ahora</button>
-      </section>
-      </main>
-      <footer class="footer">
-        <button class="button-footer"></button> <!---nav-->
-        <nav>
-          <ul class="equipement">
-            <li a herf="" class></li>
-            <li a herf="" class></li>
-            <li a herf="" class></li>
-            <li a herf="" class></li>
-          </ul>
-          <ul class="network">
-            <li a herf="" class></li>
-            <li a herf="" class></li>
-            <li a herf="" class></li>
-          </ul>
-        </nav>
-        <ul class="copyright">
-          <li class="footer-copyright"></li>
-          <li class="footer-slogan"></li>
-        </ul>
-      </footer>
-      </body>
+    <include src="./partials/header.html"></include>
+    <include src="./partials/hero.html"></include>
+    <main>
+      <include src="./partials/main_section1.html"></include>
+      <include src="./partials/main_section2.html"></include>
+    </main>
+    <include src="./partials/footer.html"></include>
+  </body>
 </html>
