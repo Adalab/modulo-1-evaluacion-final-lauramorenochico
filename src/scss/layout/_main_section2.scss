@@ -1,19 +1,66 @@
+
 .section2 {
-    background-color: #f2f2f2;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(7, 1fr)
-    
-    
-}
-.section2-title1 {
-    grid-row: span 1;
-    font-family: "Roboto Slab";
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: bold;
+  background-color: #f2f2f2;
+  width: 100%;
+  margin: 0;
 }
 
-.section1-title2 {
-    grid-row: span 2;
+.section2-title1 {
+  margin: 2.5rem 2.5rem 1rem 2.5rem;
+  padding: 20px;
+  font-family: "roboto slab", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.section2-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.section2-box-box {
+  margin: 1rem;
+}
+
+.section2-box-box-title {
+  font-family: "roboto slab", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+.section2-box-box-p {
+  font-family: "roboto-regular", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.67;
+  text-align: center;
+}
+
+.button-section2 {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+
+.button-section2-start {
+    color: white;
+    background-color: #f26002;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.25;
+    text-align: center;
+    margin: 10px 25px 10px 25px;
+    width: 180px;
+    height: 43px;
+    margin-bottom: 5rem;
 }

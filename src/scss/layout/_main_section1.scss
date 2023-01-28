@@ -1,20 +1,16 @@
-.section1{
-  width: 500px;
-  height: 380px;
+.section1 {
   background-color: white;
-  display:flex;
-  justify-content: center;
-  position:relative;
-  top: -40px;
-  right: 95px;
-  z-index: 3px;
-  padding-top: 40px;
+  display: flex;
+  direction: column;
+  justify-content: flex-start;
+  padding-right: 15px;
+  position: relative;
+  top: -20px;
 }
 .section1-title1 {
   color: #f26002;
   line-height: 30px;
   font-size: 14px;
-  margin-left:15px;
   text-align: left;
   font-family: "Roboto";
 }
@@ -23,7 +19,6 @@
   color: black;
   line-height: 30px;
   font-size: 24px;
-  margin-left:15px;
   text-align: left;
   font-family: "Roboto Slab", serif;
   font-weight: bold;
@@ -36,55 +31,25 @@
   font-size: 18px;
   text-align: left;
   font-family: "Roboto";
-  margin: 11px 0px 0px 16px;
-  }
-/*
-.button-section1 {
-width:160px;
-height:45px;
-border: solid 2px;
-border-color: #f26002;
-border-radius: 22.5px;
-/*margin-top:30px;
-transform:translateY(35px)
-}*/
+  margin-top: 11px;
+}
+
 .scroll-section1 {
   text-decoration: none;
   color: #f26002;
   font-size: 20px;
   font-family: "Roboto"; /*falta medium*/
-  margin-left: 35px;
+
   text-align: center;
   position: relative;
-  top:-33px;
-  left: 20px;
-  /*transform: translateY(60px);*/
+  top: -33px;
+  left: 40px;
+}
 
-  /*width: 160px;
+.button-section1 {
+  width: 160px;
   height: 45px;
   margin-top: 30px;
   border-radius: 22.5px;
-  border: solid 2px #f26002;*/
+  border: solid 2px #f26002;
 }
-
-    
-  .button-section1 {
-    width: 160px;
-    height: 45px;
-    margin-top: 30px;
-    margin-left: 15px;
-    border-radius: 22.5px;
-    border: solid 2px #f26002;
-      }
-    /*padding-top: 8px;
-    font-family: "Roboto";
-    font-size:20px;
-    text-decoration: none;
-    color: #f26002;
-    }
-  
-        padding-top: 8px;
-        font-family: "Roboto";
-        font-size:20px;
-        text-decoration: none;
-        color: #f26002;*/

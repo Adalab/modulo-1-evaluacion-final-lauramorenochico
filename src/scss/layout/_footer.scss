@@ -1,19 +1,33 @@
 .footer {
   display: flex;
   flex-direction: column;
-  height: 495px;
   background-color: #4a4a4a;
 }
 
+
 .nav-flecha-footer {
-background-color: white;
-width: 45px;
-height: 45px;
-border: radius 50%;
-position: relative;
-top: -20px;
-left: 138px;
-justify-content: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.selected {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 0.5rem;
+  margin-top: -2rem;
+  margin-right: 3rem;
+  border-radius: 22.5px;
+  background-color: white;
+  
+}
+
+.arrow {
+  object-fit: contain;
+  margin-top: 0.7rem;
+  margin-left: 1rem;
 }
 
 
@@ -27,11 +41,11 @@ justify-content: center;
   line-height: 30px;
   position: relative;
   top: 43px;
-  left: 108px;
+  left: 90px;
 }
 
 .network {
-  width: 101px;
+  width: 90px;
   height: 90px;
   font-family: "Roboto";
   font-size: 16px;
@@ -40,7 +54,8 @@ justify-content: center;
   line-height: 30px;
   position: relative;
   top: 82px;
-  left: 113px;
+  left: 95px;
+
 }
 
 .footer-copyright {
@@ -60,8 +75,6 @@ justify-content: center;
   color: white;
   font-family: "Roboto";
   font-size: 14px;
-  text-align: center;
-  transform: translateX(23px);
 }
 
 .fa-solid {

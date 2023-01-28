@@ -1,66 +1,50 @@
-      .hero {
-        position: sticky;
-        top: 0;
-        z-index: 3;
+.hero {
+  height: 528.8px;
+  background-size: cover;
+  background-position: left;
+  background-image: url(../images/cover.jpeg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 
-        .hero-menu {
-          display: flex;
-          background-color: #f26002;
-          width: 37px;
-          height: 34px;
-          align-items: center;
-          justify-content: center;
-        }
-      }
-      
-      /*.hero {
-          width: 100vw;
-          height: 100vh;
-          transform: translateY(-45px);
-          background-image: url(../images/cover.jpeg);
-          background-size: cover;
-          background-position-x: 40%;
-          background-repeat: no-repeat;
-          display: flex;
-          flex-direction: column;
-          justify-content:flex-end;
-          align-items: center;
-    
-          .hero-article {
-            margin: 314px 0px 10px 5px;
-            width: 315px;
-            text-align: center;
-            color: white;
-    
-            .hero-title {
-              text-transform: uppercase;
-              font-family: 'Roboto Slab', serif;
-              font-weight: bolder;
-              text-shadow: 1px 1px 2px black;
-              font-size: 3rem;
-              line-height: 5rem;
-              margin-bottom: 10px;
-            }
-    
-            .hero-p {
-              font-family: 'Roboto', sans-serif;
-              font-size: 1.6rem;
-              line-height: 2rem;
-              margin-bottom: 15px;
-            }
-    
-            .hero-button {
-              box-sizing: border-box;
-              background-color: white;
-              width: 40px;
-              height: 40px;
-              border-radius: 50%;
-              margin: 10px auto 38px auto;
-    
-                .button-arrow {
-                margin: 14px auto;
-              }
-            }
-          }
-        }
-        */
+.hero-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 37.8px;
+}
+
+.hero-title {
+  font-size: 30px;
+  font-family: 'Roboto Slab',
+    serif;
+  font-weight: 100;
+  color: white;
+
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.hero-p {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: white;
+  text-align: center;
+  padding: 0px 42.9px 8px 33.8px;
+  font-weight: bold;
+}
+
+.hero-img-arrow-a {
+  width: 37.9px;
+  height: 35.7px;
+  background-color: white;
+  border-radius: 22.5px;
+
+}
+
+.hero-img-arrow {
+  padding: 13px 10.1px 20px 9px;
+
+}
