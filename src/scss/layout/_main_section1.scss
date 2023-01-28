@@ -1,7 +1,20 @@
+.section1{
+  width: 500px;
+  height: 380px;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  position:relative;
+  top: -40px;
+  right: 95px;
+  z-index: 3px;
+  padding-top: 40px;
+}
 .section1-title1 {
   color: #f26002;
   line-height: 30px;
   font-size: 14px;
+  margin-left:15px;
   text-align: left;
   font-family: "Roboto";
 }
@@ -10,6 +23,7 @@
   color: black;
   line-height: 30px;
   font-size: 24px;
+  margin-left:15px;
   text-align: left;
   font-family: "Roboto Slab", serif;
   font-weight: bold;
@@ -41,8 +55,11 @@ transform:translateY(35px)
   font-family: "Roboto"; /*falta medium*/
   margin-left: 35px;
   text-align: center;
-  z-index: 1;
-  transform: translateY(60px);
+  position: relative;
+  top:-33px;
+  left: 20px;
+  /*transform: translateY(60px);*/
+
   /*width: 160px;
   height: 45px;
   margin-top: 30px;
@@ -55,6 +72,7 @@ transform:translateY(35px)
     width: 160px;
     height: 45px;
     margin-top: 30px;
+    margin-left: 15px;
     border-radius: 22.5px;
     border: solid 2px #f26002;
       }

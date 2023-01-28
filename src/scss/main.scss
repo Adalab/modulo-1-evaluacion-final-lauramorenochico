@@ -14,13 +14,8 @@
 @import 'layout/footer';
 
 .container {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 21px;
+  margin-right: 12px;
 }
 
-@media only screen and (max-width: 480px) {
-  .hero-img {
-    width: 100%;
-  }
-}
 
