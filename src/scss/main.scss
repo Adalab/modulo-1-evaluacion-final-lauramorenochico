@@ -1,10 +1,5 @@
 
-:root {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-  
-}
+
 
 @import 'core/reset';
 @import 'layout/header';
@@ -13,9 +8,15 @@
 @import 'layout/main_section2';
 @import 'layout/footer';
 
+
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+
+}
+
 .container {
   margin-left: 21px;
   margin-right: 12px;
 }
-
-
