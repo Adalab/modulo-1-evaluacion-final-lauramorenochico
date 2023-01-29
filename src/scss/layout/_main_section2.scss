@@ -64,6 +64,11 @@
   height: 43px;
   margin-bottom: 5rem;
 }
+.button-section2-start:hover {
+  transform: scale(1.2);   
+  transition: all 500ms;   
+}
+      
 
 @media all and (min-width: 768px) {
   .section2-box {
