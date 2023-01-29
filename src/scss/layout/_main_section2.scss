@@ -1,8 +1,7 @@
 .section2 {
   background-color: #f2f2f2;
   width: 100%;
-  margin: 0;
-}
+  }
 
 .section2-title1 {
   margin: 2.5rem 2.5rem 1rem 2.5rem;
@@ -18,6 +17,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  margin: 0 50px 0 50px;
 }
 
 .section2-box-box {
@@ -38,6 +38,7 @@
   font-weight: normal;
   line-height: 1.67;
   text-align: center;
+ 
 }
 
 .button-section2 {
@@ -68,18 +69,41 @@
   .section2-box {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: none;
-    margin-right: 30px;
+    transform: translateX(-10px);
   }
   .section2-title1 {
     font-size: 28px;
+    line-height: 1.61;
   }
   .button-section2-start {
     margin-right: 60px;
   }
   .section2-box-box-title {
     font-size: 24px;
+    line-height: 1.5;
   }
   .section2-box-box-p {
     font-size: 20px;
+    line-height: 1.5;
   }
+}
+
+@media all and (min-width: 1200px) {
+  .section2-box {
+    /*margin: 0px 70px 0 0;*/
+    transform: translateX(-3px);
+    
+  }
+  .section2-title1 {
+    font-size: 32px;
+    }
+  .section2-box-box-title {
+    margin-bottom: 30px; 
+  }
+  .button-section2-start {
+    transform: translateX(30px)
+      }
+  .section2-box-box-p {
+    transform:translateX(-5px);
+}
 }

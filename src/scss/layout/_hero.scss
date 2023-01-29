@@ -1,7 +1,7 @@
 .hero {
   height: 528.8px;
   background-size: cover;
-  background-position: left;
+  background-position: center;
   background-image: url(../images/cover.jpeg);
   display: flex;
   flex-direction: column;
@@ -17,23 +17,23 @@
 
 .hero-title {
   font-size: 30px;
-  font-family: 'Roboto Slab',
-    serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 100;
-  color: white;
-
+  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em;
   text-align: center;
   line-height: 60px;
   text-transform: uppercase;
+  
 }
 
-.hero-p {
+.hero-paragraph {
   font-size: 16px;
   font-family: 'Roboto';
   color: white;
   text-align: center;
   padding: 0px 42.9px 8px 33.8px;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .hero-img-arrow-a {
@@ -46,5 +46,32 @@
 
 .hero-img-arrow {
   padding: 13px 10.1px 20px 9px;
+
+}
+@media all and (min-width: 768px) {
+  .hero-title {
+  font-family: "Roboto Slab";
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 1.33;
+  }
+  .hero-paragraph {
+    font-size: 24px;
+    line-height: 1.17;
+    width: 30ch;
+  }
+}
+
+@media all and (min-width: 1200px) {
+.hero-title {
+font-size: 100px; 
+font-family: "Roboto Slab";
+font-weight: bold;
+  }
+.hero-paragraph {
+font-size: 24px;
+line-height: 28px;
+width: 100ch;
+ }
 
 }
