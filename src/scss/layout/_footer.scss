@@ -1,82 +1,105 @@
 .footer {
-  display: flex;
-  flex-direction: column;
   background-color: #4a4a4a;
+  margin: 0;
+  height: auto;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+}
+.ico-arrow {
+  background-color: white;
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 22px;
+  left: 43%;
 }
 
-
-.nav-flecha-footer {
-  width: 100vw;
+.container-footer {
+  height: auto;
+  width: auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
+}
+.container1 {
+  justify-content: center;
   align-items: center;
-
+  margin: 1rem;
 }
-
-.selected {
-  width: 4rem;
-  height: 4rem;
-  margin-bottom: 0.5rem;
-  margin-top: -2rem;
-  margin-right: 3rem;
-  border-radius: 22.5px;
-  background-color: white;
-  
-}
-
-.arrow {
-  object-fit: contain;
-  margin-top: 0.7rem;
-  margin-left: 1rem;
-}
-
-
 .equipement {
-  width: 101px;
-  height: 150px;
-  font-family: "Roboto";
-  font-size: 16px;
+  list-style: none;
   color: white;
-  text-align: center;
-  line-height: 30px;
-  position: relative;
-  top: 43px;
-  left: 90px;
+  font-family: "Roboto-regular", sans-serif;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.container2 {
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  flex-grow: 0.3;
 }
 
 .network {
-  width: 90px;
-  height: 90px;
-  font-family: "Roboto";
+  list-style: none;
+  color: white;
+  font-family: "Roboto-regular", sans-serif;
   font-size: 16px;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-  position: relative;
-  top: 82px;
-  left: 95px;
-
+  line-height: 1.88;
 }
 
-.footer-copyright {
-  font-family: "Roboto";
+.container3 {
+  color: white;
+  font-family: "Roboto-regular", sans-serif;
   font-size: 14px;
-  color: white;
-  line-height: 30px;
-  text-align: center;
-  margin-top: 100px;
-}
-
-.footer-slogan {
-  width: 290px;
-  height: 32px;
-  display: flex;
   justify-content: center;
-  color: white;
-  font-family: "Roboto";
-  font-size: 14px;
+  align-items: center;
+  margin: 1rem 1rem 2.5rem 1rem;
+
+  .copyright {
+    margin-bottom: 0.3rem;
+  }
+
+  .heart {
+    color: #f26002;
+  }
 }
 
-.fa-solid {
-  color: #f26002;
+@media all and (min-width: 768px) {
+  .container-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    /*justify-content: space-between;*/
+
+    /*align-items: center;*/
+    /*align-items: center;
+      align-content: center;*/
+  }
+  .equipement {
+    text-align: start;
+    /*order: ;*/
+  }
+  .network {
+    text-align: start;
+    /*order: ;*/
+  }
+  .container3 {
+    text-align: start;
+    /*order: ;*/
+    margin-right: 90px;
+    margin-top: 50px;
+  }
+    .ico-arrow {
+      position: relative;
+      left: 45%;
+    
+}
 }

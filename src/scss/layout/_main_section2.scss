@@ -1,4 +1,3 @@
-
 .section2 {
   background-color: #f2f2f2;
   width: 100%;
@@ -42,25 +41,45 @@
 }
 
 .button-section2 {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .button-section2-start {
-    color: white;
-    background-color: #f26002;
-    font-family: "Roboto", sans-serif;
-    border: none;
-    border-radius: 35px;
+  color: white;
+  background-color: #f26002;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 35px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  text-align: center;
+  margin: 10px 25px 10px 25px;
+  width: 180px;
+  height: 43px;
+  margin-bottom: 5rem;
+}
+
+@media all and (min-width: 768px) {
+  .section2-box {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: none;
+    margin-right: 30px;
+  }
+  .section2-title1 {
+    font-size: 28px;
+  }
+  .button-section2-start {
+    margin-right: 60px;
+  }
+  .section2-box-box-title {
+    font-size: 24px;
+  }
+  .section2-box-box-p {
     font-size: 20px;
-    font-weight: 500;
-    line-height: 2.25;
-    text-align: center;
-    margin: 10px 25px 10px 25px;
-    width: 180px;
-    height: 43px;
-    margin-bottom: 5rem;
+  }
 }
