@@ -1,28 +1,27 @@
 .section1 {
   padding: 34.2px 12px 51px 21px;
-    
 }
 .section1-title1 {
   font-size: 16px;
-  font-family: "Roboto"; 
-  color: #f26002;
+  font-family: $regular_font;
+  color: $bright_color;
   line-height: 2.14;
   position: relative;
   top: -20px;
 }
 
 .section1-title2 {
-  font-family: "Roboto Slab", serif;
+  font-family: $special_font;
   font-size: 24px;
   padding-bottom: 11px;
   font-weight: bold;
 }
 
 .section1-paragraph {
-  font-family: "Roboto";
+  font-family: $regular_font;
   font-size: 18px;
   padding-bottom: 20px;
-  color: #4a4a4a;
+  color: $dark_color;
   line-height: 1.67;
 }
 
@@ -31,18 +30,19 @@
   flex-direction: column;
   text-align: center;
   justify-content: start;
-}
-.button-section1-buy {
-  background-color: transparent;
-  width: 160px;
-  height: 45px;
-  border-radius: 22.4px;
-  border: solid #f26002 2px;
-  padding: 10px 11.4px 10px 11.4px;
-  font-family: "Roboto";
-  font-size: 20px;
-  color: #f26002;
-  font-weight: bold;
+
+  .button-section1-buy {
+    background-color: transparent;
+    width: 160px;
+    height: 45px;
+    border-radius: 22.4px;
+    border: solid $bright_color 2px;
+    padding: 10px 11.4px 10px 11.4px;
+    font-family: $regular_font;
+    font-size: 20px;
+    color: $bright_color;
+    font-weight: bold;
+  }
 }
 .button-section1-buy:hover {
   transform: scale(1.2);
@@ -55,18 +55,15 @@
     padding-bottom: 20px;
   }
 
-    .section1-title1 {
-    
+  .section1-title1 {
     font-size: 16px;
     line-height: 1.88;
-      }
+  }
   .section1-title2 {
     font-size: 32px;
     line-height: 1.42;
-    font-weight: bold;
-
   }
-  
+
   .section1-paragraph {
     font-size: 20px;
     line-height: 30px;
@@ -75,8 +72,7 @@
 
 @media (min-width: 1200px) {
   .section1 {
-  margin-left: 200px;
-  margin-right: 80px;
+    margin-left: 200px;
+    margin-right: 80px;
   }
-      
 }

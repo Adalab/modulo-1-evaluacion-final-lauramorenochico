@@ -1,6 +1,5 @@
 
-
-
+@import 'core/variables';
 @import 'core/reset';
 @import 'layout/header';
 @import 'layout/hero';
@@ -13,7 +12,6 @@
   font-size: 62.5%;
   scroll-behavior: smooth;
   box-sizing: border-box;
-
 }
 
 .container {
