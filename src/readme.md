@@ -7,16 +7,22 @@ It is an exercise in responsive web design with three versions for mobiles (480p
 
 recreate a commercial website with the following sections
 -Bullet: image with a message that impacts the public.
+
 -Call to action: you must make your audience understand what you want them to do.
+
 -Support text: where the different options for the client are explained.
--Contact:
+
+-Contact:  
 The ads require a contact information of the company (web, social networks...).
 
 ## Requirements
 
 Use Sass.
+
 Use flexbox and Grid.
+
 Use media-queries.
+
 As a bonus: solve some interactions using transitions.
 
 ## Author

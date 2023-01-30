@@ -3,22 +3,23 @@
   margin: 0;
   height: auto;
   width: auto;
-  text-align: center;
-  justify-content: center;
- }
- 
+}
+
 .ico-arrow {
-  width: 45px;
-  height: 45px;
-  background-color: $light_color;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 50%;
+  align-content: center;
   position: relative;
-  bottom: 22px;
-  left: 4%;
+  bottom: 2.2rem;
+
+  .ico-arrow-img {
+    width: 3.7rem;
+    height: 3.7rem;
+    background-color: $light_color;
+    background-size: 4.5rem 4.5rem;
+    border-radius: 50%;
   }
+}
 
 .container-footer {
   height: auto;
@@ -26,28 +27,29 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  }
-
-.container1 {
+  text-align: center;
   justify-content: center;
-  align-items: center;
-  margin: 1rem;
- }
-
+  animation-duration: 7s;
+  animation-name: slideside;
+}
+@keyframes slideside {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+}
 .equipement {
   list-style: none;
   text-decoration: none;
   color: $light_color;
   font-family: $regular_font;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.88;
   text-transform: uppercase;
- }
+}
 
 .container2 {
-  justify-content: center;
-  align-items: center;
-  margin: 1rem;
+  margin: 10px;
   flex-grow: 0.3;
 }
 
@@ -62,11 +64,9 @@
 }
 
 .container3 {
-  color:  $light_color;
+  color: $light_color;
   font-family: $regular_font;
-  font-size: 14px;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.4rem;
   margin: 1rem 1rem 2.5rem 1rem;
 
   .copyright {
@@ -83,30 +83,17 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-items: flex-end;
     text-align: start;
-    margin-left: 130px;
+    margin-left: 13rem;
     justify-content: space-around;
   }
   .container3 {
-    margin-top: 20px;
-    justify-items: flex-end;
     order: -1;
-  }
-  .ico-arrow {
-  /*  position: relative;
-    left: 45%;*/
-    transform: translateX(225px);
   }
 }
 @media all and (min-width: 1200px) {
   .container-footer {
-    margin-left: 280px;
-    justify-content: space-around;
+    margin-left: 28rem;
   }
-   .ico-arrow {
-   /* position: relative;
-    left: ;*/
-    transform: translateX(450px);
-    
-   }
 }
